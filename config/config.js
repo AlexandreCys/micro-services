@@ -1,6 +1,6 @@
 const config = {
   base : {
-    url: 8383,
+    url: 'http://localhost',
     port: 8383,
   }
 };
