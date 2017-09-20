@@ -1,0 +1,9 @@
+[submodule "services/core"]
+	path = services/core
+	url = git@github.com:AlexandreCys/core.git
+[submodule "services/identity"]
+	path = services/identity
+	url = git@github.com:AlexandreCys/identity.git
+[submodule "services/cms"]
+	path = services/cms
+	url = git@github.com:AlexandreCys/cms.git
