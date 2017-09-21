@@ -4,7 +4,13 @@
   "version": "0.0.1",
   "devDependencies": {},
   "dependencies": {
+    "@types/lodash": "^4.14.74",
+    "@types/node": "^8.0.28",
+    "@types/socket.io": "^1.4.30",
+    "@types/socket.io-client": "^1.4.30",
+    "lodash": "^4.17.4",
     "socket.io": "^2.0.3",
-    "socket.io-client": "^2.0.3"
+    "socket.io-client": "^2.0.3",
+    "typescript": "^2.5.2"
   }
 }
