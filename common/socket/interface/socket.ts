@@ -1,7 +1,9 @@
 interface Socket {
-  id: String;
 
-  type: String;
+  id: string;
+
+  type: string;
 
   socket: any;
+  
 }

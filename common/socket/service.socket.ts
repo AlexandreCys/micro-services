@@ -1,16 +1,17 @@
-class ServiceSocketObject implements Socket {
+class ServiceSocket implements Socket {
   
-    id: String;
-  
-    type: String;
-  
-    socket: any;
-  
-    constructor(id : String, type : String, socket : any) {
-      this.id = id;
-      this.type = type;
-      this.socket = socket;
-    }
+  id: string;
+
+  type: string;
+
+  socket: any;
+
+  constructor(id : string, type : string, socket : any) {
+    this.id = id;
+    this.type = type;
+    this.socket = socket;
   }
   
-  module.exports = ServiceSocketObject;
+}
+
+export default ServiceSocket;

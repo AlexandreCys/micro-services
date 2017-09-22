@@ -4,12 +4,13 @@ class executeMessageTransferObject implements Mto {
 
   action: string;
 
-  args: Array<any>;
+  args: any[];
 
-  constructor(action : string, args : Array<any>) {
+  constructor(action : string, args : any[]) {
     this.action = action || '';
     this.args = args || [];
   }
+  
 }
 
-module.exports = executeMessageTransferObject;
+export default executeMessageTransferObject;

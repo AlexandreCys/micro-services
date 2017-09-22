@@ -5,20 +5,20 @@
       "type": "node",
       "request": "launch",
       "name": "Core",
-      "program": "${workspaceRoot}/services/core/server"
+      "program": "${workspaceRoot}/build/services/core/server"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "Identity",
-      "program": "${workspaceRoot}/services/identity/server"
+      "program": "${workspaceRoot}/build/services/identity/server"
     }
     ,
     {
       "type": "node",
       "request": "launch",
       "name": "Cms",
-      "program": "${workspaceRoot}/services/cms/server"
+      "program": "${workspaceRoot}/build/services/cms/server"
     }
   ]
 }

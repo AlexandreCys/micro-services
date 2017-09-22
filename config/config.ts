@@ -5,4 +5,4 @@ const Config : any = {
   }
 };
 
-module.exports = Config;
+export default Config;
