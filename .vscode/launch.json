@@ -5,13 +5,13 @@
       "type": "node",
       "request": "launch",
       "name": "Core",
-      "program": "${workspaceRoot}/build/services/core/server"
+      "program": "${workspaceRoot}/build/services/core/app"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "Identity",
-      "program": "${workspaceRoot}/build/services/identity/server"
+      "program": "${workspaceRoot}/build/services/identity/app"
     }
     ,
     {

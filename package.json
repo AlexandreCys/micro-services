@@ -3,15 +3,25 @@
   "description": "POC Micro services",
   "version": "0.0.1",
   "devDependencies": {
+    "@types/express": "^4.0.37",
     "@types/lodash": "^4.14.74",
+    "@types/uuid": "^3.4.2",
     "@types/node": "^8.0.28",
     "@types/socket.io": "^1.4.30",
-    "@types/socket.io-client": "^1.4.30"
+    "@types/socket.io-client": "^1.4.30",
+    "@types/socketio-wildcard": "^2.0.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.0",
+    "logger": "0.0.1",
+    "express": "^4.15.5",
     "lodash": "^4.17.4",
+    "uuid": "^3.1.0",
+    "npm": "^5.4.2",
     "socket.io": "^2.0.3",
     "socket.io-client": "^2.0.3",
+    "socketio-wildcard": "^2.0.0",
     "typescript": "^2.5.2"
   }
 }
