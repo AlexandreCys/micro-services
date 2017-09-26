@@ -1,9 +1,13 @@
+import { get } from 'lodash'
+
 abstract class RestController {
 
-  protected _logger : any = (<any>global).logger;
-
   get logger() : any {
-    return this._logger;
+    return (<any>global).logger;
+  }
+
+  get socket() : any {
+    return get(global, 'socketServer.io');
   }
 
 }

@@ -2,14 +2,12 @@ import Config from '../../../config/config'
 
 abstract class SocketServer {
 
-  protected _logger : any = (<any>global).logger;
-
   protected _express : any;
   
   protected _config : any = Config;
 
   get logger() : any {
-    return this._logger;
+    return  (<any>global).logger;
   }
 
   get express() : any {
@@ -17,7 +15,7 @@ abstract class SocketServer {
   }
 
   set express(express : any) {
-      this._express = io;
+      this._express = express;
   }
 
   get config() : any {
